@@ -1,6 +1,6 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: process.env.NODE_ENV === "production" ? "/USER/" : "/",
+  publicPath: "/https://charmium.ru/",
   transpileDependencies: true,
   devServer: {
     proxy: 'https://charmium.ru/',
